@@ -10,6 +10,6 @@ public class WebController {
     @GetMapping("/")
     public String getMessage()
     {
-        return "Spring Boot Application running on Tomcat server!!";
+        return "Spring Boot Demo Application running on Tomcat server!!";
     }
 }
